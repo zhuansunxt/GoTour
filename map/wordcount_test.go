@@ -34,7 +34,7 @@ func TestWordCount(t *testing.T) {
 	for _, c := range cases {
 		got := WordCount(c.input)
 
-		if !reflect.DeepEqual(got, c.expected) {
+			if !reflect.DeepEqual(got, c.expected) {
 			t.Errorf("wordcount(%q) result is not correct", c.input)
 			t.Errorf("Expected: %v", c.expected)
 			t.Errorf("What you output: %v", got)
