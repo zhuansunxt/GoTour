@@ -1,3 +1,6 @@
+// For computing the square root of a given float number using newton method
+// The purpose of this exercise is getting familiar with golang's control flow
+
 package newton
 
 import (
