@@ -1,8 +1,12 @@
 // Implement a Reader type that emits an 
 // infinite stream of the ASCII character 'A'.
-package main
 
-import "golang.org/x/tour/reader"
+// The purpose this practice is to get familiar with the io.Reader interface
+// and to know the Read() method defined by that interface.
+
+package reader
+
+//import "golang.org/x/tour/reader"
 
 type MyReader struct{}
 
@@ -10,8 +14,4 @@ type MyReader struct{}
 func (MyReader) Read (b []byte) (n int, e error) {
 	b[0] = 'A'
 	return 1, nil;
-}
-
-func main() {
-	reader.Validate(MyReader{})
 }
