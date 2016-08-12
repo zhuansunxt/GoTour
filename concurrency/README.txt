@@ -1,0 +1,1 @@
+This directory contains some experimental code on Golang's concurrency features.
