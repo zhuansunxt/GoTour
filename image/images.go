@@ -1,3 +1,8 @@
+// Define Image type, implement the necessary methods, and 
+// call pic.ShowImage.
+// The purpose of the exercise is to enhance the understanding on golang's
+// interface concept. 
+
 package main
 
 import (
